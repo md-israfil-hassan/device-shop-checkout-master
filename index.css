@@ -1,0 +1,327 @@
+/* body section */
+
+header{
+display: flex;
+justify-content: center;
+gap: 25px;
+background-image: url('resources/background-image.png');
+background-repeat: no-repeat;
+background-size: contain;
+padding-bottom: 12vw;
+}
+
+.body-text{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+font-size: 29px;
+color: #FFFFFF;
+}
+.body-text2{
+color: #FFFFFF;
+background-color: #1D1D1F;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+padding: 15px 15px;
+border-radius: 20px;
+letter-spacing: 1px;
+}
+
+/* main section */
+
+
+main{
+    box-shadow: 5px 7px 20px black;
+margin-top: -100px;
+background-color: #FFFFFF;
+margin-left:50px ;
+border-radius: 20px;
+margin-right: 50px;
+display: flex;
+margin-bottom: 100px;
+}
+
+.container{
+display: grid;
+grid-template-rows: repeat(3, 145px);
+gap: 5px;
+
+}
+
+h3{
+    color: #394150;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p{
+ color: #394150;
+font-size: 29px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+
+.box{
+display: flex;
+}
+
+
+/* #box-1,#box-2, #box-3{
+grid-row: span 1;
+} */
+
+.box > .price{
+margin-left: 220px;
+text-align: right;
+}
+.box > .price2{
+    margin-left: 240px;
+    text-align: right;
+    }
+    .box > .price3{
+        margin-left: 285px;
+        text-align: right;
+        }
+            
+.box img{
+margin:20px  20px;
+ background-color: #FFFFFF;
+width: 8%;
+height: 45%;
+padding: 20px;
+border-radius: 10px;
+}
+
+.form{
+background-color: #FFFFFF;
+
+}
+
+.product{
+    background-color: #D2D5DA;
+    border-bottom-left-radius:20px ;
+    border-top-left-radius:20px ;
+    
+}
+/* <!-- /coupon section/ --> */
+
+.coupon-input{
+    gap: 10px;
+    margin-top: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h4{
+font-size:19px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #394150;
+}
+
+
+.email{
+padding: 15px 110px;
+border-radius:10px ;
+border: 0px;
+
+}
+.btn-primary{
+    background-color: black;
+color: #D2D5DA;
+padding: 16px 30px;
+border-radius: 10px;
+
+}
+.coupon-cash{
+display: flex;
+justify-content: space-between;
+margin: 0px 30px;
+
+}
+
+
+/* secand Form section */
+
+h2{
+font-size: 24px;
+color: #3b3b3d;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+label{
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #394150;
+
+}
+
+#email{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 25px 170px;
+    border: 0px ;
+background-color: #E5E7EB;
+border-radius: 10px;
+}
+
+.btn-primary2{
+    margin-top: 30px;
+    background-color: black;
+color: #D2D5DA;
+padding: 15px 238px;
+border-radius: 10px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#country{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color:rgb(67, 67, 67);
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: 1px solid#D2D5DA;
+
+}
+
+#code{
+    font-size: 17px;
+    margin-left:30px ;
+    color:black;
+    padding: 20px 18px;
+    border-radius: 10px;
+    border: 1px solid#D2D5DA;
+
+}
+.form-container{
+margin: 0px auto;
+margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    main{
+      display: flex;
+flex-direction: column;
+box-shadow: 5px 7px 20px black;
+background-color: #FFFFFF;
+margin-left:0px ;
+margin-right: 0px;
+margin-bottom: 100px;
+        }
+
+  
+        .container{
+            display: grid;
+            grid-template-rows: repeat(3, 100px);
+            gap: 20px;
+            
+            }
+
+            h3{
+                color: #394150;
+            font-size: 13px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            }
+
+
+ p{
+               font-size: 20px;
+ }
+    #pp{
+    font-size: 10px;
+     }
+
+
+     .box > .price{
+        margin-left: 160px;
+        text-align: right;
+        }
+        .box > .price2{
+            margin-left: 170px;
+            text-align: right;
+            }
+            .box > .price3{
+                margin-left: 210px;
+                text-align: right;
+                }
+
+         .box img{
+                    margin:15px  30px;
+                     background-color: #FFFFFF;
+                    width: 9%;
+                    height: 50%;
+                    padding: 20px 10px;
+         
+                    }
+                    .product{
+                        background-color: #D2D5DA;
+                        border-radius:20px ;
+                        
+                    }
+
+          
+    
+.email{
+   padding: 15px 50px;
+  border-radius:10px ;
+  border: 0px;
+  }
+  .btn-primary{
+     background-color: black;
+     color: #D2D5DA;
+     padding: 16px 18px;
+     border-radius: 10px;
+     }
+
+
+     #email{
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+        margin-bottom: 30px;
+        padding: 20px 130px;
+        border: 0px ;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    }
+    
+    .btn-primary2{
+    padding: 15px 175px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #country{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        color:rgb(67, 67, 67);
+        padding: 20px 55px;
+        border-radius: 10px;
+        border: 1px solid#D2D5DA;
+    
+    }
+    
+    #code{
+        font-size: 12px;
+        margin-left:30px ;
+        color:black;
+        padding: 20px 18px;
+        border-radius: 10px;
+        border: 1px solid#D2D5DA;
+    
+    }
+
+
+
+
+
+}
